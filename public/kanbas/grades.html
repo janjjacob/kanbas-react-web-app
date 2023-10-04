@@ -1,219 +1,239 @@
-<table width="100%" border="1">
-  <tr>
-    <td valign="top">
-      <ul>
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./index.css" />
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <ul class="col-sm-1 text-white wd-kanbas-navigator wd-pos-fixed-navigator wd-sidebar-font">
         <li>
-          <a href="./profile/index.html">Account</a>
+          <a href="./profile/index.html" class="text-white">
+            <i class="fa-solid fa-user"></i>
+            <div class="text-white">Account</div>
+          </a>
         </li>
         <li>
-          <a href="./home.html">Dashboard</a>
+          <a href="./home.html" class="text-danger">
+            <i class="fas fa-tachometer-alt"></i>
+            <div class="text-white">Dashboard</div>
+          </a>
+        </li>
+        <li class="active-selected">
+          <a href="./assignments/index.html" class="text-danger">
+            <i class="fa-solid fa-book"></i>
+            <div class="text-danger">Courses</div>
+          </a>
         </li>
         <li>
-          <a href="./assignments/index.html">Courses</a>
+          <a href="#" class="text-danger">
+            <i class="fa-regular fa-calendar text-danger"></i>
+            <div class="text-white">Calendar</div>
+          </a>
         </li>
         <li>
-          <a href="#">Calendar</a>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-inbox"></i>
+            <div class="text-white">Inbox</div>
+          </a>
         </li>
         <li>
-          <a href="#">Inbox</a>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-clock"></i>
+            <div class="text-white">History</div>
+          </a>
         </li>
         <li>
-          <a href="#">History</a>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-tv"></i>
+            <div class="text-white">Studio</div>
+          </a>
         </li>
         <li>
-          <a href="#">Studio</a>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+            <div class="text-white">Commons</div>
+          </a>
         </li>
         <li>
-          <a href="#">Comments</a>
-        </li>
-        <li>
-          <a href="#">Help</a>
+          <a href="#" class="text-danger">
+            <i class="fas fa-question-circle"></i>
+            <div class="text-white">Help</div>
+          </a>
         </li>
       </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li>
-          <a href="./home.html">Home</a>
-        </li>
-        <li>
-          <a href="">Modules</a>
-        </li>
-        <li>
-          <a href="#">Piazza</a>
-        </li>
-        <li>
-          <a href="#">Zoom Meetings</a>
-        </li>
-        <li>
-          <a href="./assignments/index.html">Assignments</a>
-        </li>
-        <li>
-          <a href="./grades.html">Grades</a>
-        </li>
-        <li>
-          <a href="#">People</a>
-        </li>
-        <li>
-          <a href="#">Panopto Video</a>
-        </li>
-        <li>
-          <a href="#">Discussions</a>
-        </li>
-        <li>
-          <a href="#">Announcements</a>
-        </li>
-        <li>
-          <a href="#">Pages</a>
-        </li>
-        <li>
-          <a href="#">Files</a>
-        </li>
-        <li>
-          <a href="#">Rubrics</a>
-        </li>
-        <li>
-          <a href="#">Outcomes</a>
-        </li>
-        <li>
-          <a href="#">Collaborations</a>
-        </li>
-        <li>
-          <a href="#">Syllabus</a>
-        </li>
-        <li>
-          <a href="#">Settings</a>
-        </li>
-      </ul>
-    </td>
-    <td valign="top">
-      <select>
-        <option>Gradebook</option>
-      </select>
-      <button>Import</button>
-      <select>
-        <option>Export</option>
-        <option>Export 1</option>
-        <option>Export 2</option>
-      </select>
-      <button>Configure</button>
+      <div class="col-sm-2">
+        <ul class="col-sm-1 text-white wd-sidebar-font wd-profile-sidebar">
+          <li>
+            <a href="./assignments/index.html" class="text-danger">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Piazza</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Zoom Meetings</a>
+          </li>
+          <li>
+            <a href="./assignemnts/index.html" class="text-danger">Modules</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger" class="text-danger">Quizzes</a>
+          </li>
+          <li>
+            <a href="./assignments/assignments.html" class="text-danger">Assignments</a>
+          </li>
+          <li>
+            <a href="#" class="wd-sidebar-selected">Grades</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">People</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Microsoft Teams Meetings</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">FACT Reporting and Photo Roster</a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Discussions</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Announcements</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Pages</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Files</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Rubrics</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Outcomes</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
+      <div class="p-2 row">
+        <div class="d-flex flex-row flex-wrap">
+          <i class="fa-solid fa-bars sidebar-button text-danger"></i>
+          <nav aria-label="breadcrumb align-self-center">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="./assignemts/index.html" class="text-danger">CS4550.12631.202410</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Home
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <hr />
+      <div class="d-flex justify-content-end">
+        <button class="btn"><i class="fa-solid fa-file-import"></i> Import</button>
+        <button class="btn"><i class="fa-solid fa-file-export"></i> Export <i class="fa fa-caret-down"></i></button>
+        <button class="btn"><i class="fa-solid fa-gear"></i></button>
+    </div>
 
-      <table width="100%">
-        <tr valign="top">
-          <td>
-            <h3>Student Names</h3>
-            <input placeholder="Search Students" />
-            <h3>Assignment Names</h3>
-            <input placeholder="Search Assignments" />
-            <br />
-            <button>Apply Filters</button>
-          </td>
-        </tr>
-      </table>
+    <div class="row">
+      <div class="col w-50">
+          <h3 style="text-align: left">Student Names</h3>
+          <input value="Search Students" class="form-control" />
+      </div>
+      <div class="col w-50">
+        <h3 style="text-align: left">Assignment Names</h3>
+        <input placeholder="Search Assignments" class="form-control" />
+      </div>
+    </div>
 
-      <table width="100%" border="1">
-        <thead>
-          <tr>
-            <th>Student Name</th>
-            <th>A1 - HTML</th>
-            <th>A2 - CSS</th>
-            <th>A3 - JS</th>
-            <th>A4 - PHP</th>
-            <th>A5 - SQL</th>
-            <th>A6 - React</th>
-            <th>Q1</th>
-            <th>Q2</th>
-            <th>Q3</th>
-            <th>Q4</th>
-            <th>Q5</th>
-            <th>Q6</th>
-            <th>Exam 1</th>
-            <th>Exam 2</th>
-            <th>Exam 3</th>
-            <th>Exam 4</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Alice</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td><input value="100" /></td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-          </tr>
+    <div class="d-flex justify-content-between">
+      <div class="float-left">
+          <button class="btn"><i class="fa-solid fa-filter"></i> Filter</button>
+      </div>
+    </div>
 
-          <tr>
-            <td>Bob</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td><input value="100" /></td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>John</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td><input value="100" /></td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-          </tr>
+      <div class="row result table-responsive">
+        <table width="100%" class="table table-hover table-striped result-table">
+          <thead>
+            <tr>
+              <th scope="col" style="text-align: left;">Student Name</th>
+              <th scope="col">A1 - HTML</th>
+              <th scope="col">A2 - CSS</th>
+              <th scope="col">Q1</th>
+              <th scope="col">Q2</th>
+              <th scope="col">Exam 1</th>
+              <th scope="col">Exam 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" class="text-danger" style="text-align: left;">Alice</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+              <td><input value="100" /></td>
+              <td>100</td>
+              <td>100</td>
+            </tr>
 
-          <tr>
-            <td>Jack</td>
-            <td>47</td>
-            <td>12</td>
-            <td>43</td>
-            <td>65</td>
-            <td>76</td>
-            <td>87</td>
-            <td>98</td>
-            <td><input value="100" /></td>
-            <td>65</td>
-            <td>45</td>
-            <td>78</td>
-            <td>67</td>
-            <td>45</td>
-            <td>34</td>
-            <td>23</td>
-            <td>34</td>
-          </tr>
-        </tbody>
-      </table>
-    </td>
-  </tr>
-</table>
+            <tr>
+              <td scope="row" class="text-danger" style="text-align: left;">Bob</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td scope="row" class="text-danger" style="text-align: left;">John</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+              <td><input value="100" /></td>
+              <td>100</td>
+              <td>100</td>
+            </tr>
+
+            <tr>
+              <td scope="row" class="text-danger" style="text-align: left;">Jack</td>
+              <td>47</td>
+              <td>12</td>
+              <td>43</td>
+              <td>65</td>
+              <td>76</td>
+              <td>87</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>

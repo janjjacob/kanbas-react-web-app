@@ -1,189 +1,163 @@
-<table border="1" width="100%">
-  <tbody>
-    <tr>
-      <td valign="top">
-        <ul>
-          <li>
-            <a href="./profile/index.html">Account</a>
-          </li>
-          <li>
-            <a href="./home.html">Dashboard</a>
-          </li>
-          <li>
-            <a href="./assignments/index.html">Courses</a>
-          </li>
-          <li>
-            <a href="#">Calendar</a>
-          </li>
-          <li>
-            <a href="#">Inbox</a>
-          </li>
-          <li>
-            <a href="#">History</a>
-          </li>
-          <li>
-            <a href="#">Studio</a>
-          </li>
-          <li>
-            <a href="#">Comments</a>
-          </li>
-          <li>
-            <a href="#">Help</a>
-          </li>
-        </ul>
-      </td>
-      <td valign="top">
-        <ul>
-          <li>
-            <a href="./home.html">Home</a>
-          </li>
-          <li>
-            <a href="">Modules</a>
-          </li>
-          <li>
-            <a href="#">Piazza</a>
-          </li>
-          <li>
-            <a href="#">Zoom Meetings</a>
-          </li>
-          <li>
-            <a href="./assignments/index.html">Assignments</a>
-          </li>
-          <li>
-            <a href="./grades.html">Grades</a>
-          </li>
-          <li>
-            <a href="#">People</a>
-          </li>
-          <li>
-            <a href="#">Panopto Video</a>
-          </li>
-          <li>
-            <a href="#">Discussions</a>
-          </li>
-          <li>
-            <a href="#">Announcements</a>
-          </li>
-          <li>
-            <a href="#">Pages</a>
-          </li>
-          <li>
-            <a href="#">Files</a>
-          </li>
-          <li>
-            <a href="#">Rubrics</a>
-          </li>
-          <li>
-            <a href="#">Outcomes</a>
-          </li>
-          <li>
-            <a href="#">Collaborations</a>
-          </li>
-          <li>
-            <a href="#">Syllabus</a>
-          </li>
-          <li>
-            <a href="#">Settings</a>
-          </li>
-        </ul>
-      </td>
-      <td valign="top">
-        <ul>
-          <div>
-            <button>Collapse All</button>
-            <button>View Progress</button>
-            <select>
-              <option value="PublishAll" selected>Publish All</option>
-            </select>
-            <button>Module</button>
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="/styles.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="index.css" />
+
+  <div class="row">
+    <ul class="col-sm-1 text-white wd-kanbas-navigator wd-pos-fixed-navigator wd-sidebar-font">
+      <li>
+        <a href="./profile/index.html" class="text-white">
+          <i class="fa-solid fa-user"></i>
+          <div class="text-white">Account</div>
+        </a>
+      </li>
+      <li class=active-selected>
+        <a href="./home.html" class="text-danger">
+          <i class="fas fa-tachometer-alt"></i>
+          <div>Dashboard</div>
+        </a>
+      </li>
+      <li>
+        <a href="./assignments/index.html" class="text-danger">
+          <i class="fa-solid fa-book"></i>
+          <div class="text-white">Courses</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fa-regular fa-calendar text-danger"></i>
+          <div class="text-white">Calendar</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fa-solid fa-inbox"></i>
+          <div class="text-white">Inbox</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fa-solid fa-clock"></i>
+          <div class="text-white">History</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fa-solid fa-tv"></i>
+          <div class="text-white">Studio</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fa-solid fa-circle-arrow-right"></i>
+          <div class="text-white">Commons</div>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-danger">
+          <i class="fas fa-question-circle"></i>
+          <div class="text-white">Help</div>
+        </a>
+      </li>
+    </ul>
+    <div class="col-sm-11">
+      <h1>Dashboard</h1>
+      <hr />
+      <h2>Published Courses (2/4)</h2>
+      <div class="d-flex flex-row flex-wrap">
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
           </div>
-          <li>
-            Week 0 - INTRO
-            <ul>
-              <li>
-                LEARNING OBJECTIVES
-                <ul>
-                  <li>Introduction to the course</li>
-                  <li>Learn what is Web Development</li>
-                  <li>Creating a Web Applications</li>
-                  <li>Getting startedd with the 1st assignment</li>
-                </ul>
-              </li>
-              <li>
-                READING
-                <ul>
-                  <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                  <li>Full Stack Developer - Chapter 2 - Creating User</li>
-                  <li>Interfaces with HTML</li>
-                </ul>
-              </li>
-              <li>
-                SLIDES
-                <ul>
-                  <li>
-                    <a href="#"
-                      >Introduction to Web Development Links to an external
-                      site.</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      >Creating an HTTP server with Node.js Links to an external
-                      site</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      >Creating a React Application Links to an external
-                      site.</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>Week 1 - HTML</li>
-          <li>
-            LEARNING OBJECTIVES
-            <ul>
-              <li>Learn how to create user interfaces with HTML</li>
-              <li>Keep working on assignment 1</li>
-              <li>Deploy the assignment to Netlify</li>
-            </ul>
-          </li>
-
-          <li>
-            READING
-            <ul>
-              <li>Full Stack Developer - Chapter 1 - Introduction</li>
-              <li>Full Stack Developer - Chapter 2 - Creating User</li>
-              <li>Interfaces with HTML</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td valign="top">
-        <h1>Course Status</h1>
-        <button>Published</button>
-        <button>Unpublished</button>
-        <ul>
-          <li><a href="#">Import Existing Content</a></li>
-          <li><a href="#">Import From Commons</a></li>
-          <li><a href="#">Choose Home Page</a></li>
-          <li><a href="#">View Couse Stream</a></li>
-          <li><a href="#">New Announcements</a></li>
-          <li><a href="#">New Analytics</a></li>
-          <li><a href="#">View Course Notifications</a></li>
-        </ul>
-
-        <div>Coming Up</div>
-        <a href="#">View Calendar</a>
-        <ul>
-          <li><a href="#">Lecture CS4550.12351.202410 Sep 7 at 11:45am</a></li>
-          <li><a href="#">Lecture CS4550.12351.202410 Sep 11 at 11:45am</a></li>
-          <li><a href="#">Lecture CS4550.12351.202410 Sep 11 at 6pm</a></li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+        <div class="card" class="width: 25rem">
+          <img src="../images/blue.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="text-secondary">CS4550</h5>
+            <h5 class="card-muted">
+              CS4550.1231.3123
+            </h5>
+            <h8 class="card-muted">
+              2023-2024 Fall 2023
+            </h8>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</html>

@@ -1,215 +1,565 @@
-<table border="1" width="100%">
-  <tbody>
-    <tr>
-      <td valign="top">
-        <ul>
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../index.css" />
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <ul class="col-sm-1 text-white wd-kanbas-navigator wd-pos-fixed-navigator wd-sidebar-font">
+        <li>
+          <a href="./../profile/index.html" class="text-white">
+            <i class="fa-solid fa-user"></i>
+            <div class="text-white">Account</div>
+          </a>
+        </li>
+        <li>
+          <a href="./../home.html" class="text-danger">
+            <i class="fas fa-tachometer-alt"></i>
+            <div class="text-white">Dashboard</div>
+          </a>
+        </li>
+        <li class=active-selected>
+          <a href="./index.html" class="text-danger">
+            <i class="fa-solid fa-book"></i>
+            <div>Courses</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-regular fa-calendar text-danger"></i>
+            <div class="text-white">Calendar</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-inbox"></i>
+            <div class="text-white">Inbox</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-clock"></i>
+            <div class="text-white">History</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-tv"></i>
+            <div class="text-white">Studio</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+            <div class="text-white">Commons</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fas fa-question-circle"></i>
+            <div class="text-white">Help</div>
+          </a>
+        </li>
+      </ul>
+      <div class="col-sm-2">
+        <ul class="col-sm-1 text-white wd-sidebar-font wd-profile-sidebar">
           <li>
-            <a href="./../profile/index.html">Account</a>
+            <a href="./index.html" class="wd-sidebar-selected">Home</a>
           </li>
           <li>
-            <a href="./../home.html">Dashboard</a>
+            <a href="#" class="text-danger">Piazza</a>
           </li>
           <li>
-            <a href="./index.html">Courses</a>
+            <a href="#" class="text-danger">Zoom Meetings</a>
           </li>
           <li>
-            <a href="#">Calendar</a>
+            <a href="#" class="text-danger">Modules</a>
           </li>
           <li>
-            <a href="#">Inbox</a>
+            <a href="./index.html" class="text-danger" class="text-danger">Quizzes</a>
           </li>
           <li>
-            <a href="#">History</a>
+            <a href="./Assignments.html" class="text-danger">Assignments</a>
           </li>
           <li>
-            <a href="#">Studio</a>
+            <a href="./../grades.html" class="text-danger">Grades</a>
           </li>
           <li>
-            <a href="#">Comments</a>
+            <a href="#" class="text-danger">People</a>
           </li>
           <li>
-            <a href="#">Help</a>
+            <a href="#" class="text-danger">Microsoft Teams Meetings</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">FACT Reporting and Photo Roster</a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Discussions</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Announcements</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Pages</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Files</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Rubrics</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Outcomes</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
           </li>
         </ul>
-      </td>
-      <td valign="top">
-        <ul>
-          <li>
-            <a href="./../home.html">Home</a>
-          </li>
-          <li>
-            <a href="">Modules</a>
-          </li>
-          <li>
-            <a href="#">Piazza</a>
-          </li>
-          <li>
-            <a href="#">Zoom Meetings</a>
-          </li>
-          <li>
-            <a href="./index.html">Assignments</a>
-          </li>
-          <li>
-            <a href="./../grades.html">Grades</a>
-          </li>
-          <li>
-            <a href="#">People</a>
-          </li>
-          <li>
-            <a href="#">Panopto Video</a>
-          </li>
-          <li>
-            <a href="#">Discussions</a>
-          </li>
-          <li>
-            <a href="#">Announcements</a>
-          </li>
-          <li>
-            <a href="#">Pages</a>
-          </li>
-          <li>
-            <a href="#">Files</a>
-          </li>
-          <li>
-            <a href="#">Rubrics</a>
-          </li>
-          <li>
-            <a href="#">Outcomes</a>
-          </li>
-          <li>
-            <a href="#">Collaborations</a>
-          </li>
-          <li>
-            <a href="#">Syllabus</a>
-          </li>
-          <li>
-            <a href="#">Settings</a>
-          </li>
-        </ul>
-      </td>
-      <td valign="top">
-        <div>
-          <input placeholder="Search for Assignments" />
-          <button>Group</button>
-          <button>Assignment</button>
-          <select id="choose-edit">
-            <option selected value="Edit">Edit Assignment Dates</option>
-          </select>
+    </div>
+    <div class="col-sm-6">
+      <div class="p-2 row">
+        <div class="d-flex flex-row flex-wrap">
+          <i class="fa-solid fa-bars sidebar-button text-danger"></i>
+          <nav aria-label="breadcrumb align-self-center">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#" class="text-danger">CS4550.12631.202410</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Home
+              </li>
+            </ol>
+          </nav>
         </div>
-        <h2>
-          ASSIGNMENTS 40% of Total Grade
+      </div>
+      <hr />
+      <div class="d-flex justify-content-end">
+        <button class="btn float-end bg-danger"><i class="fa-solid fa-plus"></i>Module</button>
+        <button class="btn float-end">
+          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </button>
+        <button class="btn float-end">
+          <i
+            class="fa fa-check-circle float-end"
+            style="color: green; font-size: 20px"
+            aria-hidden="true"
+          ></i>
+          Publish All
+          <i class="fa fa-caret-down"></i></button>
+        </button>
+        <button class="btn float-end">View Progress</button>
+        <button class="btn float-end">Collapse All</button>
+      </div>
+      <hr />
+      <div>
+        <div style="border-radius: 0px;">
+          <ul>
+            <li
+            class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center"
+            style="height: 50px;">
+              <h4 style="padding-left:10px;">
+                <i class="fa-solid fa-grip-vertical 4x"></i>
+                <i class="fa fa-caret-down"></i>
+                Week 0 - INTRO
+              </h4>
+              <a style="padding-right:10px">
+                <i
+                  class="fa fa-ellipsis-v float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+                <i
+                  class="fa fa-plus float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+                <i class="fa fa-caret-down"></i>
+                <i
+                  class="fa fa-check-circle float-end"
+                  style="color: green; font-size: 20px"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
 
-          <select id="choose-update">
-            <option selected value="Edit">Edit</option>
-            <option value="SpeedGrader">Speed Grader</option>
-            <option value="Duplicate">Duplicate</option>
-            <option value="Delete">Delete</option>
-            <option value="MoveTo">Move To...</option>
-            <option value="SendTo">Send To...</option>
-            <option value="CopyTo">Copy To...</option>
-            <option value="Share">Share to Commons</option>
-          </select>
-        </h2>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      LEARNING OBJECTIVES
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <ul>
-          <li><a href="./edit.html">A1 - ENV + HTML</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">A2 - CSS + BOOTSTRAP</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">A3 - JS + REACT</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">A4 - STATE + REDUX</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">A5 - NODE + SESSION</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">A6 - MONGO + MONGOOSE</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-        </ul>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Introduction to the Course
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <h2>
-          QUIZZES 10% of Total Grade
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Learn What is Web Dev
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-          <select id="choose-update">
-            <option selected value="Edit">Edit</option>
-            <option value="SpeedGrader">Speed Grader</option>
-            <option value="Duplicate">Duplicate</option>
-            <option value="Delete">Delete</option>
-            <option value="MoveTo">Move To...</option>
-            <option value="SendTo">Send To...</option>
-            <option value="CopyTo">Copy To...</option>
-            <option value="Share">Share to Commons</option>
-          </select>
-        </h2>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      READING
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <ul>
-          <li><a href="./edit.html">Q1 - HTML</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">Q2 - CSS</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">Q3 - JS</a> <a href="#">ES6</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">Q4 - NODE</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">Q5 - MONGO</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-        </ul>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Full Stack Developer - Chapter 1
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <h2>
-          EXAMS 20% of Total Grade
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Full Stack Developer - Chapter 2
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-          <select id="choose-update">
-            <option selected value="Edit">Edit</option>
-            <option value="SpeedGrader">Speed Grader</option>
-            <option value="Duplicate">Duplicate</option>
-            <option value="Delete">Delete</option>
-            <option value="MoveTo">Move To...</option>
-            <option value="SendTo">Send To...</option>
-            <option value="CopyTo">Copy To...</option>
-            <option value="Share">Share to Commons</option>
-          </select>
-        </h2>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      SLIDES
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <ul>
-          <li><a href="./edit.html">MIDTERM</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-          <li><a href="./edit.html">FINAL</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-        </ul>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <i class="fa-solid fa-link" style="color:green; padding-left:10px"></i>
+                  <a class="wd-links text-danger" style="padding-left:30px">
+                      Introduction to Web Dev
+                      <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-        <h2>
-          PROJECT 30% of Total Grade
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <i class="fa-solid fa-link" style="color:green; padding-left:10px"></i>
+                  <a class="wd-links text-danger" style="padding-left:30px">
+                      Introduction to Web Dev (pt. 2)
+                      <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
 
-          <select id="choose-update">
-            <option selected value="Edit">Edit</option>
-            <option value="SpeedGrader">Speed Grader</option>
-            <option value="Duplicate">Duplicate</option>
-            <option value="Delete">Delete</option>
-            <option value="MoveTo">Move To...</option>
-            <option value="SendTo">Send To...</option>
-            <option value="CopyTo">Copy To...</option>
-            <option value="Share">Share to Commons</option>
-          </select>
-        </h2>
+          </ul>
 
-        <ul>
-          <li><a href="./edit.html">Project</a></li>
-          <a href="#">Multiple Modules</a>
-          | Not available
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+          <ul>
+            <li
+            class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center"
+            style="height: 50px;">
+              <h4 style="padding-left:10px;">
+                <i class="fa-solid fa-grip-vertical 4x"></i>
+                <i class="fa fa-caret-down"></i>
+                Week 1 - REACT
+              </h4>
+              <a style="padding-right:10px">
+                <i
+                  class="fa fa-ellipsis-v float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+                <i
+                  class="fa fa-plus float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+                <i class="fa fa-caret-down"></i>
+                <i
+                  class="fa fa-check-circle float-end"
+                  style="color: green; font-size: 20px"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      LEARNING OBJECTIVES
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Introduction to React
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      Learn What is React
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      READING
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      React Developer - Chapter 1
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:30px">
+                      React Developer - Chapter 2
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <h2 style="padding-left:10px">
+                      SLIDES
+                  </h2>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <i class="fa-solid fa-link" style="color:green; padding-left:10px"></i>
+                  <a class="wd-links text-danger" style="padding-left:30px">
+                      Introduction to React
+                      <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 75px;">
+              <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-grip-vertical"></i>
+                  <i class="fa-solid fa-link" style="color:green; padding-left:10px"></i>
+                  <a class="wd-links text-danger" style="padding-left:30px">
+                      Introduction to React (pt. 2)
+                      <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div class="d-flex">
+                  <i class="fa fa-check-circle me-2" style="color: green; font-size: 20px;"></i>
+                  <i class="fa fa-ellipsis-v" style="color: gray; font-size: 20px;"></i>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      </br>
+      </br>
+      </br>
+      <div>Course Status</div>
+      <ul>
+      <div>
+        <button class="btn">
+          <i class="fa-solid fa-ban"></i> Unpublish
+        </button>
+        <button class="btn bg-success">
+          <i class="fa-solid fa-circle-check"></i> Publish
+        </button>
+      </div>
+      <div style="padding-top:20px">
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fa-solid fa-file-import"></i> Import Existing Content
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fa-solid fa-file-import"></i> Import from Commons
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fa-solid fa-circle"></i> Choose Home Page
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fas fa-chart-bar"></i> View Course Stream
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fa-solid fa-bullhorn"></i> New Announcements
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fas fa-chart-bar"></i> New Analytics
+        </button>
+        <button class="btn" style="width: 100%; text-align: left;">
+          <i class="fa-solid fa-bell"></i> View Course Notifications
+        </button>
+      </div>
+      <h3 style="text-align: left;">To Do</h3>
+      <hr/>
+      <div style="display: flex; text-align: left;">
+        <i class="fa-solid fa-1 text-danger" style="margin-right: 10px;"></i>
+        <div>
+            <span class="text-danger">Grade A1 - ENV + HTML</span>
+            <br>100 points
+        </div>
+      </div>
+
+      <div style="display: flex; text-align: left;">
+        <h3 style="text-align: left;">Coming Up</h3>
+        <a class="wd-links flex-end">
+          <i class="fa fa-calendar" aria-hidden="true" style="color: black"></i>
+          <span class="text-danger">View Calendar</span>
+        </a>
+      </div>
+      <hr/>
+
+      <div style="display: flex; text-align: left; padding-bottom: 10px;">
+        <i class="fa fa-calendar" aria-hidden="true" style="color: black"></i>
+        <div>
+            <span class="text-danger">Lecture</span>
+            <br>CS4550.12631.202410
+        </div>
+      </div>
+
+      <div style="display: flex; text-align: left; padding-bottom: 10px;">
+        <i class="fa fa-calendar" aria-hidden="true" style="color: black"></i>
+        <div>
+            <span class="text-danger">Web Dev Lecture</span>
+            <br>CS4550.12631.202410
+        </div>
+      </div>
+
+
+      <div style="display: flex; text-align: left; padding-bottom: 10px;">
+        <i class="fa fa-calendar" aria-hidden="true" style="color: black"></i>
+        <div>
+            <span class="text-danger">Web Dev Lecture</span>
+            <br>CS4550.12631.202410
+        </div>
+      </div>
+
+      <span class="text-danger" style="text-align: left;">12 more in the next week...</span>
+
+    </div>
+  </div>
+</div>

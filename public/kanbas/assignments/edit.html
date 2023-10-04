@@ -1,214 +1,342 @@
-<table border="1" width="100%">
-  <tbody>
-    <tr>
-      <td valign="top">
-        <ul>
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../index.css" />
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <ul class="col-sm-1 text-white wd-kanbas-navigator wd-pos-fixed-navigator wd-sidebar-font">
+        <li>
+          <a href="./../profile/index.html" class="text-white">
+            <i class="fa-solid fa-user"></i>
+            <div class="text-white">Account</div>
+          </a>
+        </li>
+        <li>
+          <a href="./../home.html" class="text-danger">
+            <i class="fas fa-tachometer-alt"></i>
+            <div class="text-white">Dashboard</div>
+          </a>
+        </li>
+        <li class=active-selected>
+          <a href="./index.html" class="text-danger">
+            <i class="fa-solid fa-book"></i>
+            <div>Courses</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-regular fa-calendar text-danger"></i>
+            <div class="text-white">Calendar</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-inbox"></i>
+            <div class="text-white">Inbox</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-clock"></i>
+            <div class="text-white">History</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-tv"></i>
+            <div class="text-white">Studio</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+            <div class="text-white">Commons</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fas fa-question-circle"></i>
+            <div class="text-white">Help</div>
+          </a>
+        </li>
+      </ul>
+      <div class="col-sm-2">
+        <ul class="col-sm-1 text-white wd-sidebar-font wd-profile-sidebar">
           <li>
-            <a href="./../profile/index.html">Account</a>
+            <a href="./index.html" class="text-danger">Home</a>
           </li>
           <li>
-            <a href="./../home.html">Dashboard</a>
+            <a href="#" class="text-danger">Piazza</a>
           </li>
           <li>
-            <a href="./index.html">Courses</a>
+            <a href="#" class="text-danger">Zoom Meetings</a>
           </li>
           <li>
-            <a href="#">Calendar</a>
+            <a href="./index.html" class="text-danger">Modules</a>
           </li>
           <li>
-            <a href="#">Inbox</a>
+            <a href="./index.html" class="text-danger" class="text-danger">Quizzes</a>
           </li>
           <li>
-            <a href="#">History</a>
+            <a href="./assignemts.html" class="wd-sidebar-selected">Assignments</a>
           </li>
           <li>
-            <a href="#">Studio</a>
+            <a href="./../grades.html" class="text-danger">Grades</a>
           </li>
           <li>
-            <a href="#">Comments</a>
+            <a href="#" class="text-danger">People</a>
           </li>
           <li>
-            <a href="#">Help</a>
+            <a href="#" class="text-danger">Microsoft Teams Meetings</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">FACT Reporting and Photo Roster</a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Discussions</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Announcements</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Pages</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Files</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Rubrics</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Outcomes</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
           </li>
         </ul>
-      </td>
-      <td valign="top">
-        <ul>
-          <li>
-            <a href="./../home.html">Home</a>
-          </li>
-          <li>
-            <a href="">Modules</a>
-          </li>
-          <li>
-            <a href="#">Piazza</a>
-          </li>
-          <li>
-            <a href="#">Zoom Meetings</a>
-          </li>
-          <li>
-            <a href="./index.html">Assignments</a>
-          </li>
-          <li>
-            <a href="./../grades.html">Grades</a>
-          </li>
-          <li>
-            <a href="#">People</a>
-          </li>
-          <li>
-            <a href="#">Panopto Video</a>
-          </li>
-          <li>
-            <a href="#">Discussions</a>
-          </li>
-          <li>
-            <a href="#">Announcements</a>
-          </li>
-          <li>
-            <a href="#">Pages</a>
-          </li>
-          <li>
-            <a href="#">Files</a>
-          </li>
-          <li>
-            <a href="#">Rubrics</a>
-          </li>
-          <li>
-            <a href="#">Outcomes</a>
-          </li>
-          <li>
-            <a href="#">Collaborations</a>
-          </li>
-          <li>
-            <a href="#">Syllabus</a>
-          </li>
-          <li>
-            <a href="#">Settings</a>
-          </li>
-        </ul>
-      </td>
-      <td valign="top">
+    </div>
+    <div class="col-sm-9">
+      <div class="d-flex flex-row flex-wrap">
+        <i class="fa-solid fa-bars sidebar-button text-danger"></i>
+        <nav aria-label="breadcrumb align-self-center">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="./index.html" class="text-danger">CS4550.12631.202410</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Assignments
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <hr />
+      <div class="d-flex justify-content-end">
+        <i
+          class="fa fa-check-circle text-success"
+          style="color: green; font-size: 20px; padding-left: 5px"
+          aria-hidden="true"
+        ></i>
+        <span class="text-success" style="padding-left: 5px">
+          Publish
+        </span>
+        <i
+          class="fa fa-ellipsis-v float-end"
+          style="color: gray; font-size: 20px; padding-left: 5px; padding-right: 10px"
+          aria-hidden="true"
+        ></i>
+      </div>
+      <hr />
+      <form class="form-control border: None; ">
         <div>
-          <select id="choose-update">
-            <option value="Edit">Edit</option>
-            <option selected value="SpeedGrader">Speed Grader</option>
-            <option value="Duplicate">Duplicate</option>
-            <option value="Delete">Delete</option>
-            <option value="MoveTo">Move To...</option>
-            <option value="SendTo">Send To...</option>
-            <option value="CopyTo">Copy To...</option>
-            <option value="Share">Share to Commons</option>
-          </select>
-          <hr />
-          <h2>Assignment Name</h2>
-          <div>
-            <input
-              id="assignmentName"
-              title="This is the name of the assignment"
-              value="A1 - ENV + HTML"
-              placeholder="Assignment 1"
-            />
+          <div style="padding-bottom: 10px">
+            <h6 class="font-weight-bold" style="text-align: left">Assignment Name</h3>
+            <input value="A1 - ENV + HTML" class="form-control" />
           </div>
-          <label>Description</label>
-          <br />
-          <textarea>This is the assignment description</textarea>
-          <div>Points</div>
-          <div>
-            <input type="number" value="98" max="100" min="50" step="5" />
+          <div style="padding-bottom: 10px">
+            <textarea class="form-control" cols="7" rows="7">This assignment goes through how to use HTML and setup your environment</textarea>
           </div>
 
-          <div>Assignment Group</div>
-          <select id="choose-group">
-            <option selected value="assignment">ASSIGNMENTS</option>
-            <option selected value="group2">GROUP1</option>
-          </select>
-
-          <div>Display Grade as</div>
-          <select id="choose-group">
-            <option selected value="percentage">Percentage</option>
-            <option value="fraction">fraction</option>
-            <option value="points">Points</option>
-          </select>
-
-          <div>Submission Type</div>
-          <select id="choose-submission">
-            <option selected value="online">Online</option>
-          </select>
-
-          <div>
-            <div>Online Entry Choices</div>
-            <input id="entry" type="checkbox" />
-            <label for="entry">Text Entry</label>
-            <br />
-            <input id="url" type="checkbox" />
-            <label for="url">Website URL</label>
-            <br />
-            <input id="media" type="checkbox" />
-            <label for="media">Media Recordings</label>
-            <br />
-            <input id="annotation" type="checkbox" />
-            <label for="annotation">Student Annotation</label>
-            <br />
-            <input id="uploads" type="checkbox" />
-            <label for="uploads">File Uploads</label>
-            <br />
+          <div style="padding-bottom: 10px;">
+            <div class="row">
+                <div class="col-auto">
+                    <label style="display: inline-block; margin-right: 10px;">Points</label>
+                </div>
+                <div class="col">
+                    <input value="100" class="form-control" />
+                </div>
+            </div>
           </div>
 
-          <div>Submission Attempts</div>
-          <select id="choose-submission">
-            <option selected value="online">Unlimited</option>
-          </select>
+          <div style="padding-bottom: 10px;">
+            <div class="row">
+                <div class="col-auto">
+                    <label style="display: inline-block; margin-right: 10px;">Assignment Groups</label>
+                </div>
+                <div class="col">
+                  <select
+                    id="choose-group"
+                    class="form-control"
+                  >
+                    <option selected value="assignment">Assigment</option>
+                    <option value="group1">group1</option>
+                  </select>
+                </div>
+            </div>
+          </div>
 
-          <div>Plagarism Review</div>
-          <select id="choose-submission">
-            <option selected value="online">None</option>
-          </select>
+          <div style="padding-bottom: 10px;">
+            <div class="row">
+                <div class="col-auto">
+                    <label style="display: inline-block; margin-right: 10px;">Display Grade as</label>
+                </div>
+                <div class="col">
+                  <select
+                    id="choose-group"
+                    class="form-control"
+                  >
+                    <option selected value="percentage">Percentage</option>
+                    <option value="fraction">Fraction</option>
+                  </select>
+                </div>
+            </div>
+          </div>
 
-          <div>Assign</div>
-          <div>Assign To</div>
-          <input
-            id="assign"
-            title="assign"
-            value="Everyone"
-            placeholder="Assign To"
-          />
-
-          <div>
-            <div>Due</div>
-            <input
-              type="date"
-              value="2021-01-01"
-              min="2021-01-01"
-              max="2021-01-01"
-            />
+          <div style="padding-bottom: 10px; text-align: center;">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-auto">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="col">
+                    Do not count this assignment towards the final grade
+                </div>
+            </div>
           </div>
 
           <div>
-            <div>Available From</div>
-            <input
-              type="date"
-              value="2021-01-01"
-              min="2021-01-01"
-              max="2021-01-01"
-            />
+            <label for="choose-type">Submission Type</label>
+              <div>
+                <div style="padding-bottom: 10px;">
+                  <div class="row">
+                      <div class="col" style="padding-bottom: 5px">
+                          <select id="choose-type" class="form-control">
+                              <option selected value="online">Online</option>
+                              <option value="in-person">In Person</option>
+                          </select>
+                      </div>
+                      <div style="text-align: left">
+                        <h5 style="padding-bottom: 5px">Online Entry Options</h5>
+                        <div class="col" style="padding-bottom: 5px">
+                          <i class="fas fa-check-square"></i> Text Entry
+                        </div>
+                        <div class="col" style="padding-bottom: 5px">
+                          <i class="fas fa-check-square"></i> Website URL
+                        </div>
+                        <div class="col" style="padding-bottom: 5px">
+                          <i class="fas fa-check-square"></i> Media Recordings
+                        </div>
+                        <div class="col" style="padding-bottom: 5px">
+                          <i class="fas fa-check-square"></i> Student Annotations
+                        </div>
+                        <div class="col" style="padding-bottom: 5px">
+                          <i class="fas fa-check-square"></i> File Uploads
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
           </div>
 
           <div>
-            <div>Until</div>
-            <input
-              type="date"
-              value="2021-01-01"
-              min="2021-01-01"
-              max="2021-01-01"
-            />
-          </div>
-
-          <div>
-            <button><a href="./index.html">Cancel</a></button>
-            <button><a href="./index.html">Save</a></button>
+              <div style="height: 500px; width: 500px">
+                <div style="padding-bottom: 10px;">
+                  <div class="row">
+                    <div>Assign</div>
+                    <div class="border">
+                      <div class="col" style="padding-bottom: 5px; text-align: left">
+                          <h6>Assign to</h6>
+                          <input class="form-control"></input>
+                      </div>
+                      <div class="row">
+                        <div class="col" style="padding-bottom: 5px; text-align: left">
+                            <h6>Due</h6>
+                            <input
+                              type="date"
+                              value="2021-05-11"
+                              class="form-control"
+                            />
+                            </input>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col" style="padding-bottom: 5px; text-align: left">
+                            <h6>Available From</h6>
+                            <input
+                              type="date"
+                              value="2021-05-11"
+                              class="form-control"
+                            />
+                            </input>
+                        </div>
+                        <div class="col" style="padding-bottom: 5px; text-align: left">
+                            <h6>Until</h6>
+                            <input
+                              type="date"
+                              value="2021-05-11"
+                              class="form-control"
+                            />
+                            </input>
+                        </div>
+                      </div>
+                      <div class="row bg-secondary">
+                        <div class="col" style="padding-bottom: 5px; text-align: center; display: flex; justify-content: center; align-items: center;">
+                          <i class="fa-solid fa-plus" style="margin-right: 5px;"></i>
+                          <h6>Add</h6>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="padding-bottom: 10px;">
+              <div class="row align-items-center">
+                  <div class="col-auto">
+                      <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="col">
+                      Notify Users that this content has changed
+                  </div>
+                  <div>
+                    <button class="btn btn-danger float-end"><a href="./index.html" class="wd-links text-light" >Save</a></button>
+                    <button class="btn btn-light float-end"><a href="./index.html" class="wd-links text-danger">Cancel</a></button>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
-      </td>
-    </tr>
-  </tbody>
-</table>
+      </form>
+    </div>
+  </div>
+</div>

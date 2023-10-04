@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../index.css" />
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <ul class="col-sm-1 text-white wd-kanbas-navigator wd-pos-fixed-navigator wd-sidebar-font">
+        <li>
+          <a href="./../profile/index.html" class="text-white">
+            <i class="fa-solid fa-user"></i>
+            <div class="text-white">Account</div>
+          </a>
+        </li>
+        <li>
+          <a href="./../home.html" class="text-danger">
+            <i class="fas fa-tachometer-alt"></i>
+            <div class="text-white">Dashboard</div>
+          </a>
+        </li>
+        <li class=active-selected>
+          <a href="./index.html" class="text-danger">
+            <i class="fa-solid fa-book"></i>
+            <div>Courses</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-regular fa-calendar text-danger"></i>
+            <div class="text-white">Calendar</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-inbox"></i>
+            <div class="text-white">Inbox</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-clock"></i>
+            <div class="text-white">History</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-tv"></i>
+            <div class="text-white">Studio</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+            <div class="text-white">Commons</div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-danger">
+            <i class="fas fa-question-circle"></i>
+            <div class="text-white">Help</div>
+          </a>
+        </li>
+      </ul>
+      <div class="col-sm-2">
+        <ul class="col-sm-1 text-white wd-sidebar-font wd-profile-sidebar">
+          <li>
+            <a href="./index.html" class="text-danger">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Piazza</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Zoom Meetings</a>
+          </li>
+          <li>
+            <a href="./index.html" class="text-danger">Modules</a>
+          </li>
+          <li>
+            <a href="./index.html" class="text-danger" class="text-danger">Quizzes</a>
+          </li>
+          <li>
+            <a href="#" class="wd-sidebar-selected">Assignments</a>
+          </li>
+          <li>
+            <a href="./../grades.html" class="text-danger">Grades</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">People</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">Microsoft Teams Meetings</a>
+          </li>
+          <li>
+            <a href="#" class="text-danger">FACT Reporting and Photo Roster</a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Discussions</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Announcements</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Pages</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Files</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Rubrics</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+              <span class="text-danger" style="margin-right: 10px;">Outcomes</span>
+              <i class="fa fa-eye-slash text-secondary"></i>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
+      <div class="p-2 row">
+        <div class="d-flex flex-row flex-wrap">
+          <i class="fa-solid fa-bars sidebar-button text-danger"></i>
+          <nav aria-label="breadcrumb align-self-center">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="./index.html" class="text-danger">CS4550.12631.202410</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Assignments
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <input placeholder="Search for Assignments" />
+        <button class="btn float-end">
+          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </button>
+        <button class="btn float-end bg-danger"><i class="fa-solid fa-plus"></i>Assignment</button>
+        <button class="btn float-end"><i class="fa-solid fa-plus"></i>Group</button>
+      </div>
+      <hr />
+      <div>
+        <div style="border-radius: 0px;">
+          <ul>
+            <li
+            class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center"
+            style="height: 50px;">
+              <h4 style="padding-left:10px;">
+                <i class="fa-solid fa-grip-vertical 4x"></i>
+                <i class="fa fa-caret-down"></i>
+                Assignments
+              </h4>
+              <a style="padding-right:10px">
+                <span class="rounded-pill text-bg-secondary float-end">
+                  40% of Total
+                </span>
+                <i
+                  class="fa fa-plus float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+                <i
+                  class="fa fa-ellipsis-v float-end"
+                  style="color: gray; padding-right:10px;"
+                ></i>
+              </a>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A2 HTML</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A3 CSS</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A4 BOOTSTRAP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A5 JAVASCRIPT</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A6 REACT</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="height=100px;">
+              <i class="fa-solid fa-grip-vertical 4x"></i>
+              <a href="./edit.html">
+                <i class="fa-solid fa-pen-to-square" style="color: green;"></i>
+              </a>
+              <div style="text-align: left;">
+                <a href="./edit.html" class="wd-links text-secondary">
+                  <h4 class="text-secondary">A1 SETUP</h4>
+                </a>
+                <div>
+                  Week O - SETUP - Week starting on September
+                  15th （9/15/2023)<br />
+                  Due Sep 27, 2023 at 11:59pm | 100 pts
+                </div>
+              </div>
+              <i
+                class="fa fa-check-circle float-end"
+                style="color: green; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-ellipsis-v float-end"
+                style="color: gray; font-size: 20px"
+                aria-hidden="true"
+              ></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

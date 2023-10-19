@@ -1,0 +1,38 @@
+.wd-profile-sidebar {
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.list-group-item.active {
+    background-color: white;
+    color: black;
+    border: none;
+    border-left: 2px solid black;
+}
+
+.list-group {
+    background-color: white;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.active {
+    color: black;
+    border-left: 2px black solid;
+}

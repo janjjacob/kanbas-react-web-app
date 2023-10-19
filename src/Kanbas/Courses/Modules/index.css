@@ -1,0 +1,26 @@
+.module-list-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 70vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.list-group-item h3 {
+    padding-left: 10px;
+}
+
+.list-group-item p {
+    padding-left: 30px;
+}

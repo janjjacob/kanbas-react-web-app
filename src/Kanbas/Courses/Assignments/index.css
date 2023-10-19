@@ -1,0 +1,77 @@
+.wd-col-20pc {
+    float: left;
+    width: 20%;
+}
+.wd-col-60pc {
+    float: left;
+    width: 60%;
+}
+
+.wd-kanbas-navigator {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    width: 80px;
+    font-size: 0.8em;
+}
+
+.wd-kanbas-navigator li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.wd-kanbas-navigator li a {
+    text-decoration: none;
+}
+
+.wd-pos-fixed-navigator {
+    left: 0px;
+    bottom: 50%;
+    min-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.active-selected {
+    background-color: white;
+}
+
+.wd-sidebar-font {
+    font-family: "Verdana";
+}
+
+.card {
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    padding-left: 35px;
+    padding-top: 35px;
+    --bs-card-border-color: None;
+}
+
+.wd-profile-sidebar li {
+    margin-top: 20px;
+}
+
+.wd-profile-sidebar li a {
+    text-decoration: none;
+}
+
+.wd-sidebar-selected {
+    color: black;
+    background-color: white;
+    border: none;
+    border-left: 2px solid black;
+}
+
+.wd-links {
+    text-decoration: none;
+}
+
+.sidebar-button {
+    font-size: 40px;
+    margin: 0 20px 0 20px;
+}

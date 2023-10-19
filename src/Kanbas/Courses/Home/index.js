@@ -5,7 +5,7 @@ function Home() {
     return (
         <div>
             <h2>Home</h2>
-            <div style={{ display: 'flex' }}>
+            <div className='d-flex align-items-center justify-content-between'>
                 <ModuleList />
                 <RightSideBar />
             </div>

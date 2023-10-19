@@ -4,7 +4,7 @@ import './index.css'
 
 function RightSideBar() {
     return (
-        <div style={{ right: 0, width: 500, padding: 20 }}>
+        <div style={{ right: 0, width: 350, padding: 20 }}>
             <div>Course Status</div>
             <ul>
                 <div>

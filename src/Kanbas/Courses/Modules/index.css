@@ -1,9 +1,6 @@
 .module-list-container {
     display: flex;
     flex-direction: column;
-    min-width: 70vh;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .list-group-item {

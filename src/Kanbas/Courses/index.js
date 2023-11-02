@@ -8,16 +8,14 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import { FaBars } from 'react-icons/fa';
 
-function Courses() {
+function Courses({ courses }) {
     const { courseId } = useParams();
     const location = useLocation();
 
     // Extract the pathname from the location object
     const currentPath = location.pathname.split('/').slice(-1)[0];
 
-    const course = db.courses.find(
-        (course) => course._id === courseId
-    );
+    const course = courses.find((course) => course._id === courseId);
 
     return (
         <div>

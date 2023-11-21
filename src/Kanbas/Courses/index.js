@@ -17,7 +17,7 @@ function Courses() {
     // Extract the pathname from the location object
     const currentPath = location.pathname.split('/').slice(-1)[0];
 
-    const URL = "http://localhost:4000/api/courses";
+    const URL = `${process.env.REACT_APP_API_BASE}/courses`;
     const [course, setCourse] = useState({});
 
     const findCourseById = async (courseId) => {

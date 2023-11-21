@@ -33,7 +33,7 @@ function Dashboard(
             <div className="d-flex flex-row flex-wrap">
                 {courses.map((course) => (
                     <>
-                        <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="card wd-links width: 25rem">
+                        <Link key={course._id} to={`/Kanbas/Courses/${course._id.$oid}`} className="card wd-links width: 25rem">
                             <img src="../images/blue.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="text-secondary">{course.number}</h5>

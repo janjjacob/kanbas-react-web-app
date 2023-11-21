@@ -3,7 +3,7 @@ import db from "../../Database";
 
 
 const initialState = {
-    modules: db.modules,
+    modules: [],
     module: { name: "New Module 123", description: "New Description" },
 };
 
